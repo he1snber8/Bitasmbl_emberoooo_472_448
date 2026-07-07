@@ -9,7 +9,7 @@
       "file": "frontend/app/routes/lol/gibberish.txt",
       "requirementId": 907,
       "requirementName": "Set up Ember routing",
-      "changes": 1,
+      "changes": 3,
       "modifiedRanges": [
         {
           "startLine": 1,
@@ -19,16 +19,16 @@
       ],
       "timestamps": {
         "firstModified": "2026-07-07T09:49:27.186Z",
-        "lastModified": "2026-07-07T09:49:27.188Z"
+        "lastModified": "2026-07-07T11:22:54.330Z"
       },
       "activity": {
-        "activeDurationSec": 0,
-        "idleBreaks": 0,
-        "avgIntervalSec": 0
+        "activeDurationSec": 600,
+        "idleBreaks": 2,
+        "avgIntervalSec": 1868.6666666666667
       },
       "diffStats": {
         "linesAdded": 1,
-        "linesDeleted": 0,
+        "linesDeleted": 1,
         "largeChangeEvents": 0
       },
       "patterns": {
