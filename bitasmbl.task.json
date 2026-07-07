@@ -1,0 +1,44 @@
+{
+  "projectApplicationId": 448,
+  "requirementId": 907,
+  "files": [
+    "frontend/app/routes/lol/gibberish.txt"
+  ],
+  "activityMeta": [
+    {
+      "file": "frontend/app/routes/lol/gibberish.txt",
+      "requirementId": 907,
+      "requirementName": "Set up Ember routing",
+      "changes": 1,
+      "modifiedRanges": [
+        {
+          "startLine": 1,
+          "endLine": 1,
+          "lineCount": 1
+        }
+      ],
+      "timestamps": {
+        "firstModified": "2026-07-07T09:49:27.186Z",
+        "lastModified": "2026-07-07T09:49:27.188Z"
+      },
+      "activity": {
+        "activeDurationSec": 0,
+        "idleBreaks": 0,
+        "avgIntervalSec": 0
+      },
+      "diffStats": {
+        "linesAdded": 1,
+        "linesDeleted": 0,
+        "largeChangeEvents": 0
+      },
+      "patterns": {
+        "burstEdits": false,
+        "longPauseBeforeEdit": false
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    }
+  ]
+}

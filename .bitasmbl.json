@@ -1,0 +1,239 @@
+{
+  "projectName": "Booking Manager",
+  "projectOverview": "Build a booking management frontend using Ember.js with routes, reusable components, services, and structured booking data.",
+  "techStackId": 21,
+  "projectId": 402,
+  "requirements": [
+    {
+      "id": 907,
+      "description": "Create application routes for dashboard, bookings, and booking details.",
+      "header": "Set up Ember routing",
+      "techStackId": 21,
+      "techStack": {
+        "id": 21,
+        "name": "Ember.js",
+        "identifier": "emberjs",
+        "isCurrentlySupported": true,
+        "domain": {
+          "id": 12,
+          "name": "FrontEnd"
+        }
+      },
+      "projectSubTaskSubmissions": [
+        {
+          "id": 1672,
+          "summary": null,
+          "totalScore": 0,
+          "projectRequirementId": 907,
+          "dateSubmitted": null,
+          "submissionsLeft": 3,
+          "isValid": false
+        }
+      ],
+      "projectRequirementMilestones": [
+        {
+          "id": 37,
+          "header": "Define route structure",
+          "acceptanceCriterias": [
+            {
+              "id": 82,
+              "description": "Create routes for dashboard and bookings.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 37
+            },
+            {
+              "id": 83,
+              "description": "Create a dynamic route for booking details.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 37
+            },
+            {
+              "id": 84,
+              "description": "Add navigation between routes.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 37
+            }
+          ],
+          "projectRequirement": {
+            "id": 907,
+            "description": "Create application routes for dashboard, bookings, and booking details.",
+            "header": "Set up Ember routing",
+            "techStackId": 21,
+            "paths": [
+              "**/app/routes/lol/**",
+              "**/app/templates/**",
+              "**/app/router.js"
+            ],
+            "projectId": 402
+          }
+        }
+      ],
+      "paths": ["**/app/routes/**", "**/app/templates/**", "**/app/router.js"],
+      "projectId": 402
+    },
+    {
+      "id": 908,
+      "description": "Build reusable booking list and booking card components.",
+      "header": "Build booking components",
+      "techStackId": 21,
+      "techStack": {
+        "id": 21,
+        "name": "Ember.js",
+        "identifier": "emberjs",
+        "isCurrentlySupported": true,
+        "domain": {
+          "id": 12,
+          "name": "FrontEnd"
+        }
+      },
+      "projectSubTaskSubmissions": [
+        {
+          "id": 1673,
+          "summary": null,
+          "totalScore": 0,
+          "projectRequirementId": 908,
+          "dateSubmitted": null,
+          "submissionsLeft": 3,
+          "isValid": false
+        }
+      ],
+      "projectRequirementMilestones": [
+        {
+          "id": 38,
+          "header": "Render booking UI",
+          "acceptanceCriterias": [
+            {
+              "id": 85,
+              "description": "Create a reusable booking card component.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 38
+            },
+            {
+              "id": 86,
+              "description": "Render booking data dynamically.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 38
+            },
+            {
+              "id": 87,
+              "description": "Display booking status and date information.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 38
+            }
+          ],
+          "projectRequirement": {
+            "id": 908,
+            "description": "Build reusable booking list and booking card components.",
+            "header": "Build booking components",
+            "techStackId": 21,
+            "paths": ["**/app/components/**", "**/app/templates/components/**"],
+            "projectId": 402
+          }
+        }
+      ],
+      "paths": ["**/app/components/**", "**/app/templates/components/**"],
+      "projectId": 402
+    },
+    {
+      "id": 909,
+      "description": "Create a booking service to manage shared booking data and filtering logic.",
+      "header": "Implement booking service",
+      "techStackId": 21,
+      "techStack": {
+        "id": 21,
+        "name": "Ember.js",
+        "identifier": "emberjs",
+        "isCurrentlySupported": true,
+        "domain": {
+          "id": 12,
+          "name": "FrontEnd"
+        }
+      },
+      "projectSubTaskSubmissions": [
+        {
+          "id": 1674,
+          "summary": null,
+          "totalScore": 0,
+          "projectRequirementId": 909,
+          "dateSubmitted": null,
+          "submissionsLeft": 3,
+          "isValid": false
+        }
+      ],
+      "projectRequirementMilestones": [
+        {
+          "id": 39,
+          "header": "Manage booking state",
+          "acceptanceCriterias": [
+            {
+              "id": 88,
+              "description": "Create an Ember service for booking data.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 39
+            },
+            {
+              "id": 89,
+              "description": "Add filtering by booking status.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 39
+            },
+            {
+              "id": 90,
+              "description": "Use the service from multiple routes or components.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 39
+            }
+          ],
+          "projectRequirement": {
+            "id": 909,
+            "description": "Create a booking service to manage shared booking data and filtering logic.",
+            "header": "Implement booking service",
+            "techStackId": 21,
+            "paths": ["**/app/services/**", "**/app/utils/**"],
+            "projectId": 402
+          }
+        }
+      ],
+      "paths": ["**/app/services/**", "**/app/utils/**"],
+      "projectId": 402
+    }
+  ],
+  "projectApplicationId": 448,
+  "currentWorkingProject": "https://github.com/he1snber8/Bitasmbl_emberoooo_472_448",
+  "domains": [
+    {
+      "name": "FrontEnd",
+      "tech": ["Ember.js"],
+      "initializedLocally": true,
+      "repo": "https://github.com/he1snber8/Bitasmbl_emberoooo_472_448",
+      "localPath": "/Users/lukakhaja/Bitasmbl_emberoooo_472_448"
+    }
+  ]
+}
